@@ -1,4 +1,13 @@
-# vim
-My config configuration
+# About
+This my vim configuration. I don't use Vim als my main IDE, but still frequently for creating simple applications or quickly edit files.
 
-I recently started learning Vi(m) so there isn't a lot stuff here yet, but I have a habit of always creating an online version of important files.
+# Plugins
+
+I manage my plugins with [Vundle](https://github.com/VundleVim/Vundle.vim). Currently I use the following plugins:
+
+* [Vim Go](https://github.com/fatih/vim-go)
+* [Vim Airline](https://github.com/vim-airline/vim-airline)
+* [Vim Airline themes](https://github.com/vim-airline/vim-airline-themes)
+* [NerdTree](https://github.com/scrooloose/nerdtree)
+* [Emmet for vim](https://github.com/mattn/emmet-vim)
+* [Supertab](https://github.com/ervandew/supertab)
