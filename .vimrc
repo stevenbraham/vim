@@ -13,10 +13,16 @@ Plugin 'VundleVim/Vundle.vim'
 
 " plugin list
 
-Plugin 'bling/vim-airline'
+Plugin 'fatih/vim-go'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'scrooloose/nerdtree'
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 " always set syntax on
 syntax on
+
+set laststatus=2
