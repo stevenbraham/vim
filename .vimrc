@@ -14,6 +14,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mattn/emmet-vim'
+Plugin 'ervandew/supertab'
 
 call vundle#end()           
 filetype plugin indent on    
@@ -23,6 +24,17 @@ syntax on
 
 " line numbers on
 set nu
+
+" tabs and spaces
+
+set tabstop=4
+set softtabstop=4
+set expandtab
+
+" Visual improvement
+
+set wildmenu
+set showmatch
 
 " required for vim airline
 set laststatus=2
