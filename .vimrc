@@ -9,12 +9,14 @@ Plugin 'VundleVim/Vundle.vim'
 
 " plugin list
 
+Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'fatih/vim-go'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mattn/emmet-vim'
 Plugin 'ervandew/supertab'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()           
 filetype plugin indent on    
@@ -38,3 +40,8 @@ set showmatch
 
 " required for vim airline
 set laststatus=2
+
+" color scheme
+set t_Co=256   
+set background=dark
+colorscheme PaperColor
