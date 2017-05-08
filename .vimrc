@@ -25,4 +25,6 @@ filetype plugin indent on    " required
 " always set syntax on
 syntax on
 
+" line numbers on
+set nu
 set laststatus=2
