@@ -1,5 +1,5 @@
 # About
-This my vim configuration. I don't use Vim als my main IDE, but still frequently for creating simple applications or quickly edit files.
+This my vim configuration. I don't use Vim als my main IDE, but still frequently for creating simple applications or quickly editing files.
 
 # Color scheme
 
