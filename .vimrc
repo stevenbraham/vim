@@ -17,6 +17,15 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'mattn/emmet-vim'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-fugitive'
+Plugin 'Shougo/vimproc'
+Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'm2mdas/phpcomplete-extended'
+Plugin 'zenbro/mirror.vim'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'majutsushi/tagbar'
+
 
 call vundle#end()           
 filetype plugin indent on    
@@ -37,6 +46,9 @@ set expandtab
 
 set wildmenu
 set showmatch
+
+" Auto indent
+set autoindent
 
 " required for vim airline
 set laststatus=2
