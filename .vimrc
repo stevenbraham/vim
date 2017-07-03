@@ -25,6 +25,15 @@ Plugin 'zenbro/mirror.vim'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'majutsushi/tagbar'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-surround'
+Plugin 'majutsushi/tagbar'
+Plugin 'scrooloose/syntastic'
+Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-commentary'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'raimondi/delimitmate'
+Plugin 'plasticboy/vim-markdown'
 
 
 call vundle#end()           
