@@ -33,6 +33,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'raimondi/delimitmate'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'dhruvasagar/vim-table-mode'
 
 
 call vundle#end()           
