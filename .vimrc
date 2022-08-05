@@ -10,7 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin list
 
 Plugin 'NLKNguyen/papercolor-theme'
-
+Plugin 'rust-lang/rust.vim'
 call vundle#end()           
 filetype plugin indent on    
 
